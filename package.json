@@ -1,0 +1,17 @@
+{
+  "name": "cargjs",
+  "version": "1.0.0",
+  "description": "Game for car",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Hristofor",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^10.1.1",
+    "electron-packager": "^15.1.0",
+    "path": "^0.12.7",
+    "url": "^0.11.0"
+  }
+}

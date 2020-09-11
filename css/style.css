@@ -131,9 +131,19 @@ body {
 
 .start {
    width: 100%;
-   margin: auto;
+   margin: 0;
+   padding: 1.3rem 0;
    background: rebeccapurple;
    font-size: 25px;
+   position: absolute;
+   left: 0;
+   top: 0;
+   text-align: center;
+   z-index: 200;
+   color: white;
+   cursor: pointer;
+   font-weight: 600;
+   font-family: sans-serif;
 }
 .car,
 .enemy {
@@ -141,8 +151,6 @@ body {
    height: 100px;
    background: transparent url("/img/player3.png") center / cover no-repeat;
    position: absolute;
-   left: 125px;
-   bottom: 10px;
 }
 /* .start {
    font-size: 30px;
@@ -161,4 +169,18 @@ body {
    height: 50px;
    background: #ffffff;
    left: 145px;
+}
+.score {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   background: rebeccapurple;
+   padding: 1rem 0;
+   z-index: 200;
+   font-size: 25px;
+   color: sandybrown;
+   text-align: center;
+   font-weight: 500;
+   font-family: sans-serif;
 }
